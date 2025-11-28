@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: gray;
+  padding-bottom: 200px;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 48px;
+  height: 12vh;
+  align-items: center;
+}
+
+ul {
+  column-gap: 16px;
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.burger-menu {
+  display: block;
+}
+
+.brand-image {
+  background-color: red;
+  height: 70vh;
+  background-image: url("https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.brand-title {
+  color: white;
+  position: absolute;
+  bottom: 120px;
+  left: 150px;
+}
+
+.brand-title > p {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.brand-title > h4 {
+  font-size: 32px;
+}
+
+.sections-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+  position: relative;
+  bottom: 70px;
+}
+
+.sections-container > section {
+  background-color: white;
+  width: 25vw;
+  padding: 8px 8px 24px 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.section-two {
+  position: relative;
+  top: 24px;
+}
+
+.section-three {
+  position: relative;
+  top: 48px;
+}
+
+.section-image {
+  width: 100%;
+}
+
+h3 {
+  margin: 0px 16%;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-size: 32px;
+  color: white;
+}
+
+.traditions {
+  display: flex;
+  justify-content: center;
+  padding: 0px 48px;
+  column-gap: 24px;
+}
+
+.traditions-item {
+  height: 250px;
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.traditions-item > img {
+  width: 100%;
+  max-height: 70%;
+  object-fit: cover;
+}
+
+.traditions-item > h4 {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  ul {
+    display: flex;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sections-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sections-container > section {
+    width: 80vw;
+  }
+
+  .traditions {
+    padding: 0px 12px;
+  }
+
+  .traditions-two,
+  .traditions-three {
+    display: none;
+  }
+
+  .traditions-item > img {
+    max-height: 80%;
+  }
