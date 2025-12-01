@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-color: gray;
+  background-color: white;
   padding-bottom: 200px;
 }
 
@@ -16,7 +16,7 @@ header {
   align-items: center;
 }
 
-ul {
+.first {
   column-gap: 16px;
   display: none;
 }
@@ -40,7 +40,7 @@ li {
 }
 
 .brand-title {
-  color: white;
+  color: rgb(255, 255, 255);
   position: absolute;
   bottom: 120px;
   left: 150px;
@@ -122,8 +122,309 @@ h3 {
   justify-content: center;
 }
 
+.info {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 100px;
+
+
+
+}
+
+
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+  min-height: 200px;
+  background-color: rgb(243, 241, 241);
+  justify-content: space-around;
+  align-content: space-around;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  
+  
+  
+}
+.second li{
+  flex: 0 0 40%;
+  font-size: large;
+  color: rgb(175, 10, 10);
+  list-style: circle;
+  
+  
+  
+}
+.adv {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+  padding: 70px 40px 0 40px;
+  
+}
+
+.adv section{
+ max-width: 25%;
+ height: 30vh;
+ gap: 20px;
+ 
+
+}
+ 
+.section-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-centre p {
+  padding: 10px;
+  font-size: larger;
+}
+.section-centre img {
+  padding-top: 10px;
+}
+.section-centre h6 {
+  font-size: larger;
+  color: rgb(207, 11, 11);
+}
+
+.background2{
+  height: 85vh;
+  background-image: url(https://images.pexels.com/photos/1699030/pexels-photo-1699030.jpeg), url(https://img.freepik.com/premium-photo/full-frame-shot-old-paper_1048944-29321120.jpg?semt=ais_hybrid&w=740&q=80);
+  background-position: left center, right center;
+  background-repeat: no-repeat, repeat;
+  background-size: 50%,100%,50%,100%;
+  position: relative;
+  
+}
+.background2 section {
+  position: absolute;
+  right: 150px;
+  top: 100px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  
+
+}
+.background2 p{
+  width: 450px;
+  color: white;
+  font-size: x-large;
+  text-align: justify;
+
+}
+.background2 h2 {
+  color: white;
+  font-size: xx-large;
+  width: 450px;
+}
+.background2 button {
+  background-color: rgb(117, 117, 209);
+  color: white;
+  font-size: large;
+  width: 350px;
+  height: 50px;
+}
+#spanstyle {
+  background-color: rgb(178, 46, 46);
+}
+
+h3{
+  color: black;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+   margin: 100px 100px 0 100px;
+ padding-left: 100px;
+ 
+  
+
+}
+.team section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ flex-basis: 56%;
+ text-align: justify;
+ max-width: 560px;
+ font-size: x-large;
+ background-color: white;
+}
+.team p {
+  padding-left: 40px;
+}
+
+.team ul {
+  background-color: white;
+  flex-basis: 40%;
+  padding-right: 50px;
+
+}
+.team h3 {
+  font-size: x-large;
+  
+}
+.team button {
+ margin-left: 100px;
+
+
+  background-color: rgb(117, 117, 209);
+  color: white;
+  font-size: x-large;
+  width: 150px;
+  height: 50px;
+
+}
+
+.team ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  margin-top: 100px;
+}
+.team ul li {
+  border: 1px solid rgb(190, 186, 186);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: x-large;
+  color: rgb(195, 66, 66);
+
+}
+
+.other-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 100px 80px 50px 80px; */
+
+}
+.other-links h4 {
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+.other-links ul {
+  display: flex;
+  margin: 100px 80px 50px 80px;
+  width: 80%;
+   justify-content: space-between;
+}
+
+
+
+.background3{
+  height: 85vh;
+ background-image: url(https://img.freepik.com/free-photo/weathered-concrete-surface-wallpaper-backdrop_53876-124398.jpg?semt=ais_hybrid&w=740&q=80), url(https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg);
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50% 100%,50% 100%;
+  position: relative;
+  margin-top: 100px;
+ 
+  
+}
+.background3 section {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+
+}
+.background3 p{
+  width: 450px;
+  color: white;
+  font-size: x-large;
+  text-align: justify;}
+
+  .background3 h2 {
+  color: white;
+  font-size: xx-large;
+  width: 450px;
+}
+.background3 button {
+  background-color: rgb(152, 103, 103);
+  color: white;
+  font-size: large;
+  width: 350px;
+  height: 50px;
+}
+#spanstyle2 {
+  background-color:rgb(152, 103, 103) ;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 100px 80px 80px 80px;
+
+}
+footer h5 {
+  position: relative;
+  right: 20px;
+  margin-bottom: 25px;
+  font-size: large;
+  color: rgb(175, 32, 32);
+
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
-  ul {
+  .first {
     display: flex;
   }
   .burger-menu {
@@ -152,3 +453,65 @@ h3 {
   .traditions-item > img {
     max-height: 80%;
   }
+  .second {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  min-height: 350px;
+  padding-left: 20px;
+    
+
+  }
+  .adv {
+    flex-direction: column;
+    gap: 120px;
+    
+    
+
+  }
+  .adv p {
+    min-width: 300px;
+  }
+
+  .background2 {
+    background-image: url(https://img.freepik.com/premium-photo/full-frame-shot-old-paper_1048944-29321120.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+
+
+  }
+  .team {
+    flex-direction: column;
+   padding: 0;
+   margin: 0;
+    
+  }
+  .team section {
+    max-width: 100%;
+    padding-right: 0px;
+    margin-right: 0;
+    width: 100%;
+    align-items: start;
+  }
+  .team ul {
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .team p {
+    padding: 15px;
+  }
+  
+  .background3 {
+    background-image: url(https://img.freepik.com/free-photo/weathered-concrete-surface-wallpaper-backdrop_53876-124398.jpg?semt=ais_hybrid&w=740&q=80);
+    background-position: center;
+    background-size: cover;
+  }
+
+  footer{
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    gap: 50px;
+
+  }
+  
